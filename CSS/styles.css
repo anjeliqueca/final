@@ -497,6 +497,13 @@ a.test{
     div.footer-nav-group-item{
         font-size: smaller;
     }
+    footer{
+        flex-direction: column;
+    }
+    div.copyright{
+        flex-direction: column;
+        text-align: center;
+    }
 
 }
 
@@ -553,7 +560,6 @@ a.test{
     }
     footer{
         flex-direction: column;
-
     }
     div.copyright{
         flex-direction: column;
