@@ -452,9 +452,17 @@ a.test{
 
 /* Media Queries */
 
-/*For Desktop Sized Devices*/
-@media screen and (min-width:769){
-    
+/*For Desktop and Large Screen Devices*/
+@media screen and (min-width:1200px){
+    h2{
+        font-size: 100px;
+    }
+    h3{
+        font-size: 100px;
+    }
+    a{
+        font-size: 40px;
+    }
 }
 
 /*For Tablet Sized Devices*/
