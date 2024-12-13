@@ -453,12 +453,12 @@ a.test{
 /* Media Queries */
 
 /*For Desktop Sized Devices*/
-@media screen and (min-width:800){
+@media screen and (min-width:769){
     
 }
 
 /*For Tablet Sized Devices*/
-@media screen and (min-width: 601px) and (max-width: 800px){
+@media screen and (min-width: 601px) and (max-width: 768px){
     header.top{
         height: 250px;
         text-align: center;
@@ -550,6 +550,10 @@ a.test{
 
     div.footer-nav-group-item{
         font-size: smaller;
+    }
+    footer{
+        flex-direction: column;
+
     }
     div.copyright{
         flex-direction: column;
