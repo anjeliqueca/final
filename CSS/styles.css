@@ -463,6 +463,9 @@ a.test{
     a{
         font-size: 40px;
     }
+    h2.section{
+        font-size: 50px;
+    }
 }
 
 /*For Tablet Sized Devices*/
