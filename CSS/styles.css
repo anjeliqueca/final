@@ -453,11 +453,14 @@ a.test{
 /* Media Queries */
 
 /*For Desktop Sized Devices*/
+@media screen and (min-width:800){
+
+}
 
 /*For Tablet Sized Devices*/
-@media screen and (min-width: 601px) and (max-width: 900px){
+@media screen and (min-width: 601px) and (max-width: 800px){
     header.top{
-        height: 300px;
+        height: 250px;
         text-align: center;
         
     }
