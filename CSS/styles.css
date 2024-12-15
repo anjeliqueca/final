@@ -154,6 +154,7 @@ div.cycle-slideshow{
     box-sizing: border-box;
     width: 75%;
     padding: 1%;
+    margin-left: 15%;
 }
 div.slideshow-text{
     box-sizing: border-box;
